@@ -1,0 +1,302 @@
+nav {
+  display: none;
+}
+
+nav a {
+  color: #ffffff !important;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    display: block;
+  }
+}
+
+.text-sec {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  display: table;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+header .row {
+  margin-bottom: 0px;
+}
+
+header .row .col {
+  padding: 0;
+}
+
+header .bg-white {
+  width: 100%;
+  height: 70px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0 100%);
+}
+
+@media (max-width: 1000px) {
+  header .bg-white {
+    display: none;
+  }
+}
+
+header .bg-invoice {
+  width: 100%;
+  height: 70px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0 100%);
+}
+
+@media (max-width: 1000px) {
+  header .bg-invoice {
+    display: none;
+  }
+}
+
+header .bg-bottom {
+  width: 100%;
+  height: 70px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  header .bg-bottom {
+    display: block;
+  }
+}
+
+header .bg-brown {
+  width: 100%;
+  height: 70px;
+  -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0 100%);
+          clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0 100%);
+}
+
+@media (max-width: 1000px) {
+  header .bg-brown {
+    display: none;
+  }
+}
+
+header .invoice {
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  header .invoice {
+    display: none;
+  }
+}
+
+header .invoice .invoice_wrapper {
+  width: 100%;
+  height: 150px;
+}
+
+header .invoice .invoice_wrapper .row {
+  margin: 0;
+}
+
+header .invoice .invoice_wrapper .invoice-path {
+  -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0 100%);
+          clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0 100%);
+  height: 150px;
+  z-index: -111;
+  position: absolute;
+  width: 70%;
+  margin-left: -50px;
+}
+
+@media (max-width: 1000px) {
+  header .invoice .invoice_wrapper .invoice-path {
+    display: none;
+  }
+}
+
+header .invoice .invoice_wrapper .invoice_shadow {
+  width: 100%;
+  height: 150px;
+  -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0 100%);
+          clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0 100%);
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  header .invoice .invoice_wrapper .invoice_shadow {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+  }
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand {
+  position: relative;
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand .brand-icon {
+  width: 30%;
+  float: left;
+  margin-top: 20px;
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand .brand-icon a {
+  font-size: 24px;
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand .brand-text {
+  width: 20%;
+  float: right;
+  text-align: left;
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand .brand-text h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand .brand-text p {
+  font-weight: bold;
+  line-height: 10px;
+}
+
+header .invoice .invoice_wrapper .invoice_shadow .brand .brand-text p span {
+  padding-left: 10px;
+}
+
+header .invoiceTo {
+  width: 100%;
+  height: 110px;
+  position: inherit;
+  z-index: 100;
+  margin-top: -70px;
+}
+
+header .invoiceTo .invoiceToText {
+  width: 58%;
+  margin: auto;
+  padding-top: 1px;
+}
+
+header .invoiceTo .invoiceToText h5 {
+  font-size: 1.40rem;
+}
+
+header .invoiceTo .invoiceToText h5 span {
+  margin-left: 5px;
+}
+
+header .invoiceTo .invoiceToText .invoiceAddr address li {
+  font-size: 12px;
+  list-style: none;
+  margin-left: 110px;
+}
+
+header #inoiceNum h5 {
+  font-weight: 700;
+}
+
+header #inoiceNum p {
+  font-weight: 600;
+  line-height: 13px;
+}
+
+header #inoiceNum span {
+  padding-left: 8px;
+}
+
+header .invoiceMobile {
+  margin-left: 5px;
+}
+
+header .invoiceMobile h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header .invoiceMobile li {
+  list-style: none;
+}
+
+main tr {
+  height: 60px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+main #sec-con {
+  padding-bottom: 0 !important;
+}
+
+main .bottom_text li {
+  font-weight: 500;
+}
+
+main .bottom_text .bold-700 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+table#bottom-table, table#priceing {
+  width: 77%;
+  height: 18px !important;
+}
+
+@media (max-width: 1000px) {
+  table#bottom-table, table#priceing {
+    margin-top: 20px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 670px) {
+  table#bottom-table, table#priceing {
+    width: 100%;
+  }
+}
+
+table#bottom-table tr, table#priceing tr {
+  height: 10px !important;
+  border-bottom: none;
+}
+
+table#bottom-table td, table#priceing td {
+  padding: 1px;
+  font-weight: 500;
+  color: #726d6d;
+}
+
+table#priceing td hr {
+  width: 121%;
+  color: #000;
+}
+
+table#priceing td span {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+div#invoiceTobottom {
+  position: absolute;
+  width: 50%;
+  /* z-index: 9999; */
+  bottom: 0;
+  height: 65px;
+  z-index: 8999;
+}
+
+div#bottominvoice {
+  height: 120px !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  margin-top: 36px;
+}
+/*# sourceMappingURL=stye.css.map */
